@@ -4,7 +4,7 @@
 
 Im currently completing this project to display a  portfolio page which will contain my Blog, a platform for hosting my projects and work and professional and Personal Bio. This is an assessment task for my Fast Track Coding Bootcamp here at Coder Academy Brisbane.<br><br>
 
-**17/09/2019**<br><br>
+<h3>17/09/2019</h3>
 
 I have just completed the wireframes for the index page and the Mobile layout as you can see below. Its time to complete the layouts for the ipad and desktop versions and then on to some coding !! I am completing this project with the Mobile first methodology which is meant to improve responsiveness. Ill use some grid and flex box which i have seen in action and was impressed by the results. Both for ease of development and also for responsiveness. I have tried to make a very visual design with animation but still with accessability in mind. Ill keep you posted!!<br><br>
 
@@ -12,9 +12,9 @@ I have just completed the wireframes for the index page and the Mobile layout as
 
 ![Picture of the mobile layout for the index page.](project-pictures/mobile-layout-1.PNG)<br>
 
-**17/09/2019**<br><br>
+<h3> More updates !</h3>
 
-**Final wireframes and Mock-ups complete**<br><br>
+<h3>Final wireframes and Mock-ups complete :) </h3>
 
 **Wire Frames**<br>
 
@@ -27,7 +27,7 @@ I have just completed the wireframes for the index page and the Mobile layout as
 
 ![Picture of the mobile layout](project-pictures/bio-blog-projects-layout.PNG)<br>
 
-**Site Directory tree**<br><br>
+**Site Directory tree**<br>
 
 ![Picture of project wireframes.](project-pictures/site-directory-tree.PNG)<br>
 
