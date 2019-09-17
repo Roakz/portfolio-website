@@ -1,0 +1,34 @@
+@import 'scss/blog-index', 'scss/bio-index','scss/image-index','scss/projects-index','scss/resume-index';
+
+body {
+    width: 100%;
+    height: 900px;
+}
+
+#grid-container {
+    height: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 10% 25% 45%;
+    margin: 5%;
+    grid-gap: 1px;
+    
+}
+
+.main-content h4 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
