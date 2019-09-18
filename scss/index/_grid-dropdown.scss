@@ -1,0 +1,61 @@
+/* Dropdown Button */
+#grid-button{
+    display:none;
+    // display:flex;
+    // justify-content: center;
+}
+.grid-dropbtn {
+    min-width:100%;
+    background: url("/project-pictures/nav-bar.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    border: 3px solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    // align-items: center;
+  }
+
+  .grid-hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .grid-dropdown-content {
+    opacity:0;
+    transition: height 1s ease-in;
+    height: 0px;
+    width:20%;
+    // display: none;
+    position: relative;
+    text-align:left;
+    left:280%;
+
+    h4 {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(19, 50, 226);
+    font-size: 1.8rem;
+    }
+  }
+
+  
+  /* Links inside the dropdown */
+  .grid-dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .grid-dropbtn:hover  {
+  .grid-dropdown-content{
+    opacity: 1;
+    height: auto;
+     display:block;
+      }
+    }
