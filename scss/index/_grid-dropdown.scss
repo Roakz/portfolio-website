@@ -1,8 +1,7 @@
 /* Dropdown Button */
 #grid-button{
     display:none;
-    // display:flex;
-    // justify-content: center;
+  
 }
 .grid-dropbtn {
     min-width:100%;
@@ -14,7 +13,7 @@
     display:flex;
     flex-direction:column;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
   }
 
   .grid-hamburger{
@@ -27,13 +26,9 @@
   /* Dropdown Content (Hidden by Default) */
   .grid-dropdown-content {
     opacity:0;
-    transition: height 1s ease-in;
-    height: 0px;
-    width:20%;
-    // display: none;
-    position: relative;
-    text-align:left;
-    left:280%;
+    min-width:100%;
+    background-color: black;
+    position:relative;
 
     h4 {
     font-family: 'Libre Baskerville', serif;
@@ -56,6 +51,6 @@
   .grid-dropdown-content{
     opacity: 1;
     height: auto;
-     display:block;
+    width:100%;
       }
     }

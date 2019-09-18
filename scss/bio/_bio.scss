@@ -1,0 +1,31 @@
+.bio-grid{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 25% 10%  auto auto;
+}
+
+#header{
+    grid-column: 1/2 ;
+    grid-row: 1/2;
+}
+
+#head-picture{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+}
+
+#spacer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#main-content{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#footer{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
