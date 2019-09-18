@@ -5,12 +5,19 @@
     align-items: center;
     grid-column: 1/3;
     grid-row: 4/5;
-    background-image: url("project-pictures/resume-pic.jpeg");
-    background-size: cover;
+    background-image: url("/project-pictures/resume-pic.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
     border: 3px solid black;
+    transition: transform .5s;
 }
 
 #resume h4 {
     color:black;
     font-size: 1.5rem;
+}
+
+#resume:hover{
+    transform: rotate(2deg) scale(1.1);
 }

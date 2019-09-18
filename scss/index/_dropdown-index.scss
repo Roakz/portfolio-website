@@ -1,0 +1,55 @@
+/* Dropdown Button */
+#button-wrapper{
+    display:flex;
+    justify-content: center;
+}
+.dropbtn {
+    min-width:90%;
+    background: url("/project-pictures/nav-bar.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    border: 3px solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    // align-items: center;
+  }
+
+  .hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    width:90%;
+    display: none;
+    position: static;
+    text-align:left;
+
+    h4 {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(19, 50, 226);
+    font-size: 1.8rem;
+    }
+  }
+
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropbtn:hover  {
+  .dropdown-content{
+     display:block;
+      }
+    }
+  

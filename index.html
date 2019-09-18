@@ -5,20 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rory B. Portfolio</title>
-    <link rel="stylesheet" href="style-main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="llama-favcons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="llama-favcons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="llama-favcons/favicon-16x16.png">
+    <link rel="manifest" href="llama-favcons/site.webmanifest">
+    <link rel="stylesheet" href="scss/style-main.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    
+<!-- navigation bar -->
+  <div id="button-wrapper">
+     
+    <!-- Button used as outer casing for the dropdown -->
+    <button class="dropbtn">
+
+      <!-- Hamburger icon divs -->
+      <div class="ham-wrapper">
+      <div class="hamburger"></div>
+      <div class="hamburger"></div>
+      <div class="hamburger"></div>
+     </div>
+
+      <!-- dropdown links -->
+      <div class="dropdown-content">
+        <a href="bio.html"><h4>Bio</h4></a>
+        <a href="blog.html"><h4>Blog</h4></a>
+        <a href="projects.html"><h4>Projects</h4></a>
+        <a href="resume.pdf" target="blank"><h4>Resume`</h4></a>
+      </div>
+
+    </button>
+  </div>
+
 
 <!-- This is the main container that wraps the body. To contain a grid which will align all content. -->
 <div id="grid-container">
-    <section class="main-content" id="bio"><h4 id="me">BIO</h4></section>
+
+    <section class="main-content" id="bio"><a href="bio.html"><h4 id="me">BIO</h4></a></section>
     <section class="main-content" id="image"></section>
-    <section class="main-content" id="blog"><h4>BLOG</h4></section>
-    <section class="main-content" id="projects"><h4>Projects</h4></section>
-    <section class="main-content" id="resume"><h4>Resume`</h4></section>
+    <section class="main-content" id="blog"><a href="blog.html"><h4>BLOG</h4></a></section>
+    <section class="main-content" id="projects"><a href="projects.html"><h4>Projects</h4></a></section>
+    <section class="main-content" id="resume"><a href="resume.pdf" target="blank"><h4>Resume`</h4></a></section>
+   
+    <!--socials -->
+    <a href="https://twitter.com/RoarzOnRails"><section id="twitter"></section></a>
+    <a href="https://www.linkedin.com/in/rory-bell-a18233193/"><section id="link"></section></a>
+    <a href="https://github.com/Roakz"><section id="git"></section></a>
+    <a href="https://medium.com/thelearningcurve"><section id="medium"></section></a>
+
 </div>
+
+
     
 </body>
 </html>
