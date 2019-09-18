@@ -26,9 +26,8 @@
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     opacity:0;
-    transition: opacity 0.4s ease-in;
-    height: 0px;
     transition: height 1s ease-in;
+    height: 0px;
     width:90%;
     // display: none;
     position: static;
