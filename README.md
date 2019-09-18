@@ -31,6 +31,12 @@ I have just completed the wireframes for the index page and the Mobile layout as
 
 ![Picture of project wireframes.](project-pictures/site-directory-tree.PNG)<br>
 
+<h3>18/09/2019</h3>
+
+Today has been productive. I have managed to complete the mobile version of the index page pretty much to entirity at this stage. All links from this page are active and working. Tonight i will get the media queries done and adjust the layouts for tablet and desktop. It shouldnt take to long its just a slight change in layout of the grid. This site is extremly responsive as is but i think visually will benefit from media queries. Totally visual rather than because its breakable. Tommorrow will be onwards with the layout of the other pages on the site!. Lesson learnt....You cant animate display as it has no measurable parameters and isnt an inbuilt css functions. you can however play with the height and opacity of things to make the animation work in a similar way. I now have an operational dropdown hamburger that is animated !!! woo hoo !.
+
+check out my linkdin for a video of how responsive grid is without any media queries https://www.linkedin.com/in/rory-bell-a18233193/ .
+
 
 
 
