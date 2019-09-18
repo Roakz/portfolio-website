@@ -25,8 +25,12 @@
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+    height: 0px;
+    transition: height 1s ease-in;
     width:90%;
-    display: none;
+    // display: none;
     position: static;
     text-align:left;
 
@@ -49,7 +53,9 @@
   /* Show the dropdown menu on hover */
   .dropbtn:hover  {
   .dropdown-content{
-     display:block;
+    opacity: 1;
+    height: 75vh;
+    //  display:block;
       }
     }
   

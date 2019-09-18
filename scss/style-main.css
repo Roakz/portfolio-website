@@ -192,8 +192,13 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in;
+  transition: opacity 0.4s ease-in;
+  height: 0px;
+  -webkit-transition: height 1s ease-in;
+  transition: height 1s ease-in;
   width: 90%;
-  display: none;
   position: static;
   text-align: left;
 }
@@ -213,7 +218,8 @@
 
 /* Show the dropdown menu on hover */
 .dropbtn:hover .dropdown-content {
-  display: block;
+  opacity: 1;
+  height: 75vh;
 }
 
 #twitter {
