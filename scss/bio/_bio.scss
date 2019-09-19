@@ -1,3 +1,13 @@
+#bio-blog{
+    display:none;
+}
+#bio-projects{
+    display:none
+}
+#bio-resume{
+    display:none;
+}
+
 .whole-body-wrapper{
     background-color:black;
 }
@@ -123,13 +133,65 @@ h1{
     }
 }
 
+
 @media screen and (min-width: 1030px){
+
+    #footer{
+        display:none;
+    }
     
     .bio-grid{
-        grid-template-columns: 12.5% 10% 55% 22.5%;
-        grid-template-rows: 30% 40% 20% 10%;
+        grid-template-columns: 12.5% 7.5% 60% 20%;
+        grid-template-rows: 40% 30% 30%;
         grid-gap:0;
+        
     }
+
+    .whole-body-wrapper{
+        width:100%;
+        height:100%;
+        background-color:white;
+    }
+
+    #mobile-bio-head{
+        height: 30%;
+        width: 70%;
+    }
+
+    #header{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-content:center;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        
+    }
+
+    #head-picture {
+        background-color: #143A56;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding:0;
+        margin:0;
+    }
+
+    #round-me{
+        height:45%;
+        width:15%;
+    }
+
+    .right-div{
+        display: inline;
+        grid-column: 4/5;
+        grid-row: 1/4;
+        background-image: url(/project-pictures/nav-bar.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+
 
     #main-content{
         grid-column: 3/4;
@@ -138,58 +200,105 @@ h1{
         padding:0;
     }
 
-    #head-picture {
-        background-color: #143A56;
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
+  
     #bio-blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-column: 1/2;
         grid-row: 2/3;
+        border: 3px solid black;
+        background-image: url(/project-pictures/blog.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     h4{
-       color: white;
+       font-family: 'Libre Baskerville', serif;
+       color: black;
+       font-size: 2rem;
     }
+
     }
     #bio-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
         grid-column: 2/3;
         grid-row: 2/4;
-        height:100%;
-        width:100%;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 2rem;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        
+    h4{
+        color:white;
+    }
+       
     }
 
     #bio-resume{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         grid-column: 1/2;
         grid-row: 3/4;
-        background-color: rgb(201, 7, 7);
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        h4{
-            font-size: 2rem;
-        }
+        background-image: url(/project-pictures/resume-pic.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 2rem;
+    }  
+
+
+//    desktop button for right div container
+
+    .bio-dropbtn{
+        display:none;
+    }
+    #bio-desktop-button-wrapper{
+        position:fixed;
+        display:flex;
+        justify-content: center;
+    }
+    .bio-desktop-dropbtn {
+    padding: 2px;
+    margin-left: 2%;
     }
 
-    .top-div{
-        grid-column: 1/3;
-        grid-row: 1/2;
-        height:100%;
-        width:100%;
+  .bio-desktop-hamburger{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: 6px 0;
+  }
+  
+  
+  .bio-desktop-dropdown-content {
+   height: 0px;
+   transition: all .2s;
+  }
+
+
+  .bio-desktop-dropdown-content a {
+    display:none;
+    color: rgb(18, 15, 179);
+  }
+  
+  
+  .bio-desktop-dropbtn:hover  {
+    
+  .bio-desktop-dropdown-content{
+    height: 20vh;
+    width: 95vw;
+    a {
+      display: block;
+    }
+    }
     }
 
-    .right-div{
-        grid-column: 4/5;
-        grid-row: 1/4;
-        height:100%;
-        width:100%;
-    }
-
-    .whole-body-wrapper{
-        width:100%;
-        height:100%;
-    }
-
-   #round-me{
-       height:60%;
-       width:20%;
-   }
 
 }
