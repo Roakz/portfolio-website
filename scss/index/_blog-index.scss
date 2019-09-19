@@ -3,7 +3,10 @@
     grid-row: 3/4;
     border: 3px solid black;
     background: url("/project-pictures/blog.jpeg");
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     writing-mode:vertical-rl;   
     text-orientation: upright; 
     display:flex;

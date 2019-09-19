@@ -1,6 +1,8 @@
-
+.social{
+    display:flex;
+}
 #twitter {
-   height:100%;
+
    background-image: url('/project-pictures/twitter.PNG');
    background-position: center;
    background-size:contain;
@@ -9,6 +11,7 @@
    background-color:white;
    grid-column:1/2;
    grid-row: 5/6;
+   flex-grow:1;
 }
 
 #twitter:active {
@@ -29,11 +32,11 @@
    background-color:black;
    grid-column: 2/3;
    grid-row: 5/6;
-   height:100%;
    background-image: url('/project-pictures/link-icon.PNG');
    background-position: center;
    background-size:contain;
    background-repeat: no-repeat;
+   flex-grow:1;
 }
 
 #git {
@@ -41,21 +44,21 @@
    background-color:#143A56;
    grid-column: 1/2;
    grid-row:  6/7;
-   height:100%;
    background-image: url('/project-pictures/git-hub-icon.PNG');
    background-position: center;
    background-size:contain;
    background-repeat: no-repeat;
+   flex-grow:1;
 }
 
 #medium {
-    border: 3px solid black;
-    background-color:white;
-    grid-column: 2/3;
-    grid-row: 6/7;
-    height:100%;
+   border: 3px solid black;
+   background-color:white;
+   grid-column: 2/3;
+   grid-row: 6/7;
    background-image: url('/project-pictures/medium-icon.PNG');
    background-position: center;
    background-size:contain;
    background-repeat: no-repeat;
+   flex-grow:1;
 }

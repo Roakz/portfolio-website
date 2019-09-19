@@ -10,14 +10,41 @@
     <link rel="icon" type="image/png" sizes="16x16" href="llama-favcons/favicon-16x16.png">
     <link rel="manifest" href="llama-favcons/site.webmanifest">
     <link rel="stylesheet" href="scss/style-main.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
-   
-    <div class="bio-grid">
-      <section id="header"></section>
-      <section id="head-picture"></section>
-      <section id="spacer"></section>
-      <section id="main-content"></section>
+      <!-- navigation bar -->
+    <div id="bio-button-wrapper">
+        
+        <!-- Button used as outer casing for the dropdown -->
+        <button class="bio-dropbtn">
+    
+          <!-- Hamburger icon divs -->
+         <div class="bio-ham-wrapper">
+          <div class="bio-hamburger"></div>
+          <div class="bio-hamburger"></div>
+          <div class="bio-hamburger"></div>
+         </div>
+    
+          <!-- dropdown links -->
+          <div class="bio-dropdown-content">
+            <a href="index.html"><h4>Index</h4></a>
+            <a href="blog.html"><h4>Blog</h4></a>
+            <a href="projects.html"><h4>Projects</h4></a>
+            <a href="resume.pdf" target="blank"><h4>Resume`</h4></a>
+          </div>
+    
+        </button>
+      </div>
+
+      <div class="bio-grid">
+      <section id="header">
+              
+  
+      <img id="mobile-bio-head" src="project-pictures/rory-b.PNG" alt="Rory B. Logo">
+      </section>
+      <section id="head-picture"><img id="round-me" src="/project-pictures/me-small.png"></section>
+      <section id="main-content"><h1>BIO</h1></section>
       <section id="footer"></section>
     </div>
     
