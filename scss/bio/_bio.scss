@@ -1,3 +1,6 @@
+.whole-body-wrapper{
+    background-color:black;
+}
 .bio-grid {
     height: 100vh;
     display:grid;
@@ -10,6 +13,7 @@
     grid-row: 1/2;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 #mobile-bio-head{
@@ -63,6 +67,7 @@ h1{
 .bio-dropbtn {
     padding: 2px;
     margin-left: 2%;
+}
 
   .bio-hamburger{
     width: 50px;
@@ -94,3 +99,19 @@ h1{
     }
      }
     }
+
+@media screen and (min-width: 400px){
+    #round-me{
+        width:25%;
+    }
+}
+
+@media screen and (min-width: 580px){
+    #round-me{
+        width:20%;
+        height:50%
+    }
+    #mobile-bio-head{
+        width:200px;
+    }
+}

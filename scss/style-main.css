@@ -369,6 +369,10 @@
   z-index: 10;
 }
 
+.whole-body-wrapper {
+  background-color: black;
+}
+
 .bio-grid {
   height: 100vh;
   display: -ms-grid;
@@ -392,6 +396,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #mobile-bio-head {
@@ -463,11 +470,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-right: 2%;
 }
 
 .bio-dropbtn {
   padding: 2px;
+  margin-left: 2%;
 }
 
 .bio-hamburger {
@@ -495,6 +502,22 @@
 
 .bio-dropbtn:hover .bio-dropdown-content a {
   display: block;
+}
+
+@media screen and (min-width: 400px) {
+  #round-me {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  #round-me {
+    width: 20%;
+    height: 50%;
+  }
+  #mobile-bio-head {
+    width: 200px;
+  }
 }
 
 body {
