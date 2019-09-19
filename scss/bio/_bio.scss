@@ -11,6 +11,9 @@
 .whole-body-wrapper{
     background-color:black;
 }
+.bio-desktop-wrapper{
+    display:none;
+}
 .bio-grid {
     height: 100vh;
     display:grid;
@@ -136,6 +139,10 @@ h1{
 
 @media screen and (min-width: 1030px){
 
+    .bio-desktop-button{
+        display:none;
+    }
+
     #footer{
         display:none;
     }
@@ -182,7 +189,8 @@ h1{
     }
 
     .right-div{
-        display: inline;
+        display: flex;
+        justify-content:center;
         grid-column: 4/5;
         grid-row: 1/4;
         background-image: url(/project-pictures/nav-bar.jpeg);
@@ -212,13 +220,18 @@ h1{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        transition: transform .5s;
     h4{
        font-family: 'Libre Baskerville', serif;
        color: black;
        font-size: 2rem;
     }
-
     }
+
+    #bio-blog:hover{
+       transform: scale(1.1)
+    }
+
     #bio-projects{
         display: flex;
         align-items: center;
@@ -230,11 +243,15 @@ h1{
         font-size: 2rem;
         writing-mode: vertical-rl;
         text-orientation: upright;
+        transition: transform .5s;
         
     h4{
         color:white;
+    }  
     }
-       
+
+    #bio-projects:hover{
+        transform: scale(1.1);
     }
 
     #bio-resume{
@@ -251,51 +268,69 @@ h1{
         border-bottom: 4px solid black;
         font-family: 'Libre Baskerville', serif;
         font-size: 2rem;
+        transition: transform .5s;
     }  
 
+    #bio-resume:hover{
+        transform: scale(1.1) rotate(2deg);
+    }
 
-//    desktop button for right div container
+
+    // Desktop button for right div container
 
     .bio-dropbtn{
-        display:none;
+      display:none;
     }
     #bio-desktop-button-wrapper{
-        position:fixed;
-        display:flex;
-        justify-content: center;
+      position: static;
+      display:flex;
+      justify-content: center;
+      align-items:center;
     }
     .bio-desktop-dropbtn {
-    padding: 2px;
-    margin-left: 2%;
+      color: black;
+      padding: 2px;
+      margin-left: 2%;
     }
 
-  .bio-desktop-hamburger{
-    width: 50px;
-    height: 2px;
-    background-color:black;
-    margin: 6px 0;
-  }
-  
-  
-  .bio-desktop-dropdown-content {
-   height: 0px;
-   transition: all .2s;
-  }
+   .bio-desktop-hamburger{
+     width: 50px;
+     height: 2px;
+     background-color:black;
+     margin: 6px 0;
+   }
+   
+   
+   .bio-desktop-dropdown-content {
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.137);
+    transition: all .3s;
+   }
 
 
-  .bio-desktop-dropdown-content a {
-    display:none;
-    color: rgb(18, 15, 179);
-  }
-  
-  
-  .bio-desktop-dropbtn:hover  {
+   .bio-desktop-dropdown-content a {
+     display:none;
+     color: rgb(255, 0, 0);
+     font-family: 'Libre Baskerville', serif;
+     font-size: 2rem;
+   }
+   
+   
+   .bio-desktop-dropbtn:hover  {
     
-  .bio-desktop-dropdown-content{
-    height: 20vh;
-    width: 95vw;
+    opacity: .5;
+     
+   .bio-desktop-dropdown-content{
+    position:static;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    height: 100vh;
+    width: 20vw;
     a {
       display: block;
+      opacity:1;
     }
     }
     }

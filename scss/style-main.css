@@ -385,6 +385,10 @@
   background-color: black;
 }
 
+.bio-desktop-wrapper {
+  display: none;
+}
+
 .bio-grid {
   height: 100vh;
   display: -ms-grid;
@@ -541,6 +545,9 @@
 }
 
 @media screen and (min-width: 1030px) {
+  .bio-desktop-button {
+    display: none;
+  }
   #footer {
     display: none;
   }
@@ -596,7 +603,12 @@
     width: 15%;
   }
   .right-div {
-    display: inline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-column: 4/5;
@@ -639,11 +651,19 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
   }
   #bio-blog h4 {
     font-family: 'Libre Baskerville', serif;
     color: black;
     font-size: 2rem;
+  }
+  #bio-blog:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
   #bio-projects {
     display: -webkit-box;
@@ -668,9 +688,17 @@
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
     text-orientation: upright;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
   }
   #bio-projects h4 {
     color: white;
+  }
+  #bio-projects:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
   #bio-resume {
     display: -webkit-box;
@@ -696,20 +724,32 @@
     border-bottom: 4px solid black;
     font-family: 'Libre Baskerville', serif;
     font-size: 2rem;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+  }
+  #bio-resume:hover {
+    -webkit-transform: scale(1.1) rotate(2deg);
+            transform: scale(1.1) rotate(2deg);
   }
   .bio-dropbtn {
     display: none;
   }
   #bio-desktop-button-wrapper {
-    position: fixed;
+    position: static;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .bio-desktop-dropbtn {
+    color: black;
     padding: 2px;
     margin-left: 2%;
   }
@@ -721,19 +761,40 @@
   }
   .bio-desktop-dropdown-content {
     height: 0px;
-    -webkit-transition: all .2s;
-    transition: all .2s;
+    background-color: rgba(0, 0, 0, 0.137);
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
   .bio-desktop-dropdown-content a {
     display: none;
-    color: #120fb3;
+    color: red;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+  }
+  .bio-desktop-dropbtn:hover {
+    opacity: .5;
   }
   .bio-desktop-dropbtn:hover .bio-desktop-dropdown-content {
-    height: 20vh;
-    width: 95vw;
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    width: 20vw;
   }
   .bio-desktop-dropbtn:hover .bio-desktop-dropdown-content a {
     display: block;
+    opacity: 1;
   }
 }
 
