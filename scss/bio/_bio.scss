@@ -1,3 +1,7 @@
+// This is the Main scss for the Bio, Blog and projects Pages.
+// This first section if for the Mobile and tablet layouts.
+
+// The following elements are not displayed until they are needed in certain queries.
 #bio-blog{
     display:none;
 }
@@ -7,20 +11,23 @@
 #bio-resume{
     display:none;
 }
-
-.whole-body-wrapper{
-    background-color:black;
-}
 .bio-desktop-wrapper{
     display:none;
 }
+
+// Whole body wrapper used for controlling background color and positioning if needed.
+.whole-body-wrapper{
+    background-color:black;
+}
+
+// This is the Grid used for the Bio, projects and Blog pages.
 .bio-grid {
     height: 100vh;
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: 8% 35%  auto 5%;
 }
-
+//  Header section of the mobile and tablet layout for Bio, Blog and projects pages.
 #header {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -29,10 +36,12 @@
     align-items: center;
 }
 
+// LOGO USED
 #mobile-bio-head{
     width: 100px;
 }
 
+// Main header picture for the Bio, Blog and projects pages.
 #head-picture {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -42,9 +51,10 @@
     background-position: top;
     display:flex;
     align-items: flex-end;
-    justify-content: center;
-    
+    justify-content: center; 
 }
+
+// A little round picture of me...Rory Bell
 #round-me{
     width: 35%;
     height:50%;
@@ -52,7 +62,7 @@
     border: 3px solid black;
 }
 
-
+// The main content section of the Bio, Blog and projects pages
 #main-content{
     grid-column: 1/2;
     grid-row: 3/4;
@@ -66,46 +76,57 @@ h1{
 }
 }
 
+// The footer section of the Bio,Blog and projects pages.
 #footer{
     grid-column: 1/2;
     grid-row: 4/5;
 }
 
-/* Dropdown Button */
+// This is section contains the Dropdown button css.
+// Wrapper for positioning.
 #bio-button-wrapper{
     position:fixed;
     display:flex;
     justify-content: center;
 }
+// Main button
 .bio-dropbtn {
     padding: 2px;
     margin-left: 2%;
+    background-color: black;
 }
-
+//  The infamous hamburger icon on the button
   .bio-hamburger{
     width: 50px;
     height: 2px;
-    background-color:black;
+    background-color:White;
     margin: 6px 0;
   }
   
-  
+// The is the container for the dropdown content containing the transition aswell
   .bio-dropdown-content {
    height: 0px;
+   background-image: url(/project-pictures/nav-bar.jpeg);
+   background-size:contain;
+   background-repeat:no-repeat;
+   background-color: black;
    transition: all .2s;
   }
 
-
+//  This the links within the dropdown container of the button.
   .bio-dropdown-content a {
     display:none;
     color: rgb(18, 15, 179);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.1rem;
+    padding: 5px;
   }
   
-  
+// This is what happens when we hover over the button
   .bio-dropbtn:hover  {
     
     .bio-dropdown-content{
-       height: 20vh;
+       height: auto;
        width: 95vw;
     a {
         display: block;
@@ -120,12 +141,14 @@ h1{
         display:none;
     }
 
+
+// Media query to change little picture of me for visual effect
 @media screen and (min-width: 400px){
     #round-me{
         width:25%;
     }
 }
-
+// Tablet size query
 @media screen and (min-width: 580px){
     #round-me{
         width:20%;
@@ -136,9 +159,9 @@ h1{
     }
 }
 
-
+//  Desktop Queries section Hereafter lies :D
 @media screen and (min-width: 1030px){
-
+// display nones not needed in this section
     .bio-desktop-button{
         display:none;
     }
@@ -146,7 +169,8 @@ h1{
     #footer{
         display:none;
     }
-    
+    // The main grid container of the Desktop version of the Bio Page.
+    // The sections are mostly in order from left to right.Top to Bottom for navigation.
     .bio-grid{
         grid-template-columns: 12.5% 7.5% 60% 20%;
         grid-template-rows: 40% 30% 30%;
@@ -227,7 +251,7 @@ h1{
        font-size: 2rem;
     }
     }
-
+    // Hover animations for the blog section
     #bio-blog:hover{
        transform: scale(1.1)
     }
@@ -249,7 +273,7 @@ h1{
         color:white;
     }  
     }
-
+    // hover animations for the projects section.
     #bio-projects:hover{
         transform: scale(1.1);
     }
@@ -270,17 +294,18 @@ h1{
         font-size: 2rem;
         transition: transform .5s;
     }  
-
+    // Hover animations for the resume section.
     #bio-resume:hover{
         transform: scale(1.1) rotate(2deg);
     }
 
 
     // Desktop button for right div container
-
+    // Placing a display none on the button that is no longer needed. 
     .bio-dropbtn{
       display:none;
     }
+
     #bio-desktop-button-wrapper{
       position: static;
       display:flex;
