@@ -1,0 +1,49 @@
+
+ .image-cont{
+   width:100vw;
+ }
+
+ .blog img{
+     height:100%;
+     width:100%;
+ }
+
+ // This is section contains the Dropdown button css.
+// Wrapper for positioning.
+#blog-button-wrapper{
+    widows: 90%;
+    position:inline;
+    display:flex;
+    justify-content: center;
+}
+// Main button
+.blog-dropbtn {
+    padding: 2px;
+    margin-left: 2%;
+    background-color: rgba(20, 58, 86, 1);
+}
+//  The infamous hamburger icon on the button
+  .blog-hamburger{
+    width: 50px;
+    height: 2px;
+    background-color:White;
+    margin: 6px 0;
+  }
+  
+// The is the container for the dropdown content containing the transition aswell
+  .blog-dropdown-content {
+   height: 0px;
+   background-color: rgba(20, 58, 86, 1);
+   transition: all .2s;
+  }
+
+  
+// This is what happens when we hover over the button
+  .blog-dropbtn:hover  {
+    
+  .blog-dropdown-content{
+       height: auto;
+       width: 95vw;
+  }
+}
+   
