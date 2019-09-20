@@ -1,4 +1,6 @@
-
+ article a:visited{
+     color: red;
+ }
  .image-cont{
    width:100vw;
  }
@@ -7,43 +9,62 @@
      height:100%;
      width:100%;
  }
-
- // This is section contains the Dropdown button css.
-// Wrapper for positioning.
-#blog-button-wrapper{
-    widows: 90%;
-    position:inline;
-    display:flex;
-    justify-content: center;
-}
-// Main button
-.blog-dropbtn {
-    padding: 2px;
-    margin-left: 2%;
-    background-color: rgba(20, 58, 86, 1);
-}
-//  The infamous hamburger icon on the button
-  .blog-hamburger{
-    width: 50px;
-    height: 2px;
-    background-color:White;
-    margin: 6px 0;
-  }
-  
-// The is the container for the dropdown content containing the transition aswell
-  .blog-dropdown-content {
-   height: 0px;
-   background-color: rgba(20, 58, 86, 1);
-   transition: all .2s;
-  }
-
-  
-// This is what happens when we hover over the button
-  .blog-dropbtn:hover  {
+.blog{
+    h4{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1.2rem;
+        font-family: 'Libre Baskerville', serif;
     
-  .blog-dropdown-content{
-       height: auto;
-       width: 95vw;
-  }
+    }
 }
-   
+#blog-heading{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#blog-directory {
+
+li{
+    padding:5px;
+}
+a{
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px;
+    color: blue;
+}
+a:visited{
+    color:red;
+}
+h4{
+    font-size: 1.5rem;
+}
+}
+
+#blog-intro{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    margin:10px;
+    padding:10px;
+
+}
+
+.top{
+    margin-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    border: 3px solid black;
+    background-color: white;
+    margin: 10px;
+}
+.top:visited{
+ color:red;
+}
+
+#medium-link:visited{
+    color: red;
+}
