@@ -20,6 +20,11 @@
     background-color:black;
 }
 
+#mobile-nav{
+    display:flex;
+    justify-content:space-around;
+}
+
 // This is the Grid used for the Bio, projects and Blog pages.
 .bio-grid {
     height: 100vh;
@@ -37,10 +42,10 @@
 }
 
 #internals {
-    width:80%;
+    width:100%;
     display:flex;
     justify-content: space-evenly;
-    padding: 10% ;
+    // padding: 10% ;
 a{
     font-family: 'Libre Baskerville', serif;
     color: black;
@@ -58,7 +63,7 @@ a{
 #head-picture {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-image: url(/project-pictures/bio-background.jpeg);
+    background-image: url(./project-pictures/bio-background.jpeg);
     background-size: 100% 79%;
     background-repeat: no-repeat;
     background-position: top;
@@ -168,7 +173,7 @@ img:hover{
 // The is the container for the dropdown content containing the transition aswell
   .bio-dropdown-content {
    height: 0px;
-   background-image: url(/project-pictures/nav-bar.jpeg);
+   background-image: url(./project-pictures/nav-bar.jpeg);
    background-size:contain;
    background-repeat:no-repeat;
    background-color: black;
@@ -256,6 +261,10 @@ img:hover{
 
 //  Desktop Queries section Hereafter lies :D
 @media screen and (min-width: 1030px){
+
+    #mobile-nav{
+        display:none;
+    }
 // display nones not needed in this section
     .bio-desktop-button{
         display:none;
@@ -312,7 +321,7 @@ img:hover{
         justify-content:center;
         grid-column: 4/5;
         grid-row: 1/4;
-        background-image: url(/project-pictures/nav-bar.jpeg);
+        background-image: url(./project-pictures/nav-bar.jpeg);
         background-size: contain;
         background-repeat: no-repeat;
         background-color: black;
@@ -338,7 +347,7 @@ img:hover{
         grid-column: 1/2;
         grid-row: 2/3;
         border: 3px solid black;
-        background-image: url(/project-pictures/blog.jpeg);
+        background-image: url(./project-pictures/blog.jpeg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -384,7 +393,7 @@ img:hover{
         grid-row: 3/4;
         height:25%;
         background-color:black;
-        background-image: url(/project-pictures/resume-pic.jpeg);
+        background-image: url(./project-pictures/resume-pic.jpeg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

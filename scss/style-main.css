@@ -6,7 +6,7 @@
   -ms-grid-row-span: 1;
   grid-row: 3/4;
   border: 3px solid black;
-  background: url("/project-pictures/blog.jpeg");
+  background: url("./project-pictures/blog.jpeg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   border: 3px solid black;
-  background-image: url("/project-pictures/rory-white.png");
+  background-image: url("./project-pictures/rory-white.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/5;
-  background-image: url("/project-pictures/resume-pic.jpeg");
+  background-image: url("./project-pictures/resume-pic.jpeg");
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
@@ -166,7 +166,7 @@
 
 .dropbtn {
   min-width: 90%;
-  background: url("/project-pictures/nav-bar.jpeg");
+  background: url("./project-pictures/nav-bar.jpeg");
   background-size: cover;
   background-position: center;
   padding: 16px;
@@ -227,7 +227,7 @@
 }
 
 #twitter {
-  background-image: url("/project-pictures/twitter.PNG");
+  background-image: url("./project-pictures/twitter.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
-  background-image: url("/project-pictures/link-icon.PNG");
+  background-image: url("./project-pictures/link-icon.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
-  background-image: url("/project-pictures/git-hub-icon.PNG");
+  background-image: url("./project-pictures/git-hub-icon.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -305,7 +305,7 @@
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
-  background-image: url("/project-pictures/medium-icon.PNG");
+  background-image: url("./project-pictures/medium-icon.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -321,7 +321,7 @@
 .grid-dropbtn {
   width: 100%;
   height: 100%;
-  background: url("/project-pictures/nav-bar.jpeg");
+  background: url("./project-pictures/nav-bar.jpeg");
   background-size: cover;
   background-position: center;
   border: 3px solid black;
@@ -336,7 +336,7 @@
 
 /* Dropdown Content (Hidden by Default) */
 .grid-dropdown-content {
-  background-image: url("/project-pictures/nav-bar.jpeg");
+  background-image: url("./project-pictures/nav-bar.jpeg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -387,6 +387,14 @@
   background-color: black;
 }
 
+#mobile-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .bio-grid {
   height: 100vh;
   display: -ms-grid;
@@ -416,14 +424,13 @@
 }
 
 #internals {
-  width: 80%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 10%;
 }
 
 #internals a {
@@ -443,7 +450,7 @@
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-image: url(/project-pictures/bio-background.jpeg);
+  background-image: url(./project-pictures/bio-background.jpeg);
   background-size: 100% 79%;
   background-repeat: no-repeat;
   background-position: top;
@@ -583,7 +590,7 @@
 
 .bio-dropdown-content {
   height: 0px;
-  background-image: url(/project-pictures/nav-bar.jpeg);
+  background-image: url(./project-pictures/nav-bar.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
   background-color: black;
@@ -668,6 +675,9 @@
 }
 
 @media screen and (min-width: 1030px) {
+  #mobile-nav {
+    display: none;
+  }
   .bio-desktop-button {
     display: none;
   }
@@ -738,7 +748,7 @@
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     grid-row: 1/4;
-    background-image: url(/project-pictures/nav-bar.jpeg);
+    background-image: url(./project-pictures/nav-bar.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
@@ -780,7 +790,7 @@
     -ms-grid-row-span: 1;
     grid-row: 2/3;
     border: 3px solid black;
-    background-image: url(/project-pictures/blog.jpeg);
+    background-image: url(./project-pictures/blog.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -851,7 +861,7 @@
     grid-row: 3/4;
     height: 25%;
     background-color: black;
-    background-image: url(/project-pictures/resume-pic.jpeg);
+    background-image: url(./project-pictures/resume-pic.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1184,6 +1194,9 @@ article a:visited {
 }
 
 @media screen and (min-width: 1030px) {
+  #monile-nav {
+    display: none;
+  }
   #blog-grid {
     -ms-grid-columns: 12.5% 7.5% 60% 20%;
         grid-template-columns: 12.5% 7.5% 60% 20%;
