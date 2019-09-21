@@ -6,7 +6,7 @@
   -ms-grid-row-span: 1;
   grid-row: 3/4;
   border: 3px solid black;
-  background: url("../../project-pictures/blog.jpeg");
+  background: url("../project-pictures/blog.jpeg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   border: 3px solid black;
-  background-image: url("../../project-pictures/rory-white.png");
+  background-image: url("../project-pictures/rory-white.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/5;
-  background-image: url("../../project-pictures/resume-pic.jpeg");
+  background-image: url("../project-pictures/resume-pic.jpeg");
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
@@ -166,7 +166,7 @@
 
 .dropbtn {
   min-width: 90%;
-  background: url("../../project-pictures/nav-bar.jpeg");
+  background: url("../project-pictures/nav-bar.jpeg");
   background-size: cover;
   background-position: center;
   padding: 16px;
@@ -227,7 +227,7 @@
 }
 
 #twitter {
-  background-image: url("../../project-pictures/twitter.PNG");
+  background-image: url("../project-pictures/twitter.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
-  background-image: url("./project-pictures/link-icon.PNG");
+  background-image: url("../project-pictures/link-icon.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
-  background-image: url("./project-pictures/git-hub-icon.PNG");
+  background-image: url("../project-pictures/git-hub-icon.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -305,7 +305,7 @@
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
-  background-image: url("./project-pictures/medium-icon.PNG");
+  background-image: url("../project-pictures/medium-icon.PNG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -321,7 +321,7 @@
 .grid-dropbtn {
   width: 100%;
   height: 100%;
-  background: url("../../project-pictures/nav-bar.jpeg");
+  background: url("../project-pictures/nav-bar.jpeg");
   background-size: cover;
   background-position: center;
   border: 3px solid black;
