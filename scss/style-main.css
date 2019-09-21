@@ -224,6 +224,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 #twitter {
@@ -312,6 +316,13 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+@media screen and (min-width: 1030px) {
+  .social:hover {
+    -webkit-transform: scale(1.5) rotate(360deg);
+            transform: scale(1.5) rotate(360deg);
+  }
 }
 
 #grid-button {

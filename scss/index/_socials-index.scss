@@ -1,5 +1,7 @@
 .social{
     display:flex;
+
+    transition: transform .5s;
 }
 #twitter {
 
@@ -61,4 +63,13 @@
    background-size:contain;
    background-repeat: no-repeat;
    flex-grow:1;
+}
+
+@media screen and (min-width: 1030px){
+
+    .social:hover{
+        transform: scale(1.5) rotate(360deg);
+    }
+
+
 }
