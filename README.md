@@ -1,8 +1,15 @@
+![Picutre of Index page wireframes for project.](project-pictures/home-page.PNG)<br>
+
 <h1>Welcome to my Portfolio Website</h1>
 
-<h2>Build in progress</h2>
+<h2>Introduction</h2>
 
-Im currently completing this project to display a  portfolio page which will contain my Blog, a platform for hosting my projects and work and professional and Personal Bio. This is an assessment task for my Fast Track Coding Bootcamp here at Coder Academy Brisbane.<br><br>
+Hey! This is my portfolio website!! This website was created to form part of a Diploma of Information Technology, web development stream, which im completing at Coder Academy Brisbane. I have used HTML5, Css3 (with SCSS) & it has been hosted here at GitHub Pages. The address for the site is https://roakz.github.io/portfolio-website/ <br><br>
+
+I will use this website to upload projects that im undertaking and use it as a portfolio for my work. As my skills progress and i continue to learn further frameworks and languages I will endeavour to upgrade it to showcase my skills. It will become a digital resume & hopefully help me secure an Internship or paid Employment as a junior Web Developer.<br><br>
+
+Below I have included a site map, Some screen shots of the site, some information about the features & functionality and some information about some lessons learnt during development.<br><br>
+
 
 <h3>17/09/2019</h3>
 
