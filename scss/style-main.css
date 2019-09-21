@@ -314,6 +314,13 @@
           flex-grow: 1;
 }
 
+@media screen and (min-width: 1030px) {
+  .social:hover {
+    -webkit-transform: scale(1.5) rotate(360deg);
+            transform: scale(1.5) rotate(360deg);
+  }
+}
+
 #grid-button {
   display: none;
 }

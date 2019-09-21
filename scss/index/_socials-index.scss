@@ -62,3 +62,12 @@
    background-repeat: no-repeat;
    flex-grow:1;
 }
+
+@media screen and (min-width: 1030px){
+
+    .social:hover{
+        transform: scale(1.5) rotate(360deg);
+    }
+
+
+}
