@@ -31,6 +31,9 @@
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: 8% 35%  auto 5%;
+a{
+    text-decoration: none;
+}
 }
 //  Header section of the mobile and tablet layout for Bio, Blog and projects pages.
 #header {
@@ -45,11 +48,11 @@
     width:100%;
     display:flex;
     justify-content: space-evenly;
-    // padding: 10% ;
 a{
     font-family: 'Libre Baskerville', serif;
     color: black;
     font-size: .8rem;
+    text-decoration: underline;
 }
 
 }

@@ -405,6 +405,10 @@
       grid-template-rows: 8% 35%  auto 5%;
 }
 
+.bio-grid a {
+  text-decoration: none;
+}
+
 #header {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -437,6 +441,7 @@
   font-family: 'Libre Baskerville', serif;
   color: black;
   font-size: .8rem;
+  text-decoration: underline;
 }
 
 #mobile-bio-head {
@@ -1132,6 +1137,7 @@ article a:visited {
   font-family: 'Libre Baskerville', serif;
   padding: 10px;
   color: blue;
+  text-decoration: underline;
 }
 
 #blog-directory a:visited {
@@ -1344,6 +1350,10 @@ body {
   margin-top: 2px;
   margin-bottom: 5%;
   grid-gap: 1px;
+}
+
+#grid-container a {
+  text-decoration: none;
 }
 
 .main-content h4 {
