@@ -45,7 +45,11 @@ check out some snaps below!<br>
 
 Features of the site include an interactive index page with animated icons for desktop that are clickable links. I originally had dropdown buttons on all layouts however discovered that making them work on IOS without some javascript or JQuery wasnt easily achieved and I had a strict dealine to meet. With this in mind I decided to remove the hamburger drop down from all tablet and mobile versions for now and replace them with a Top navigation bar. I have kept the code in the script so its easy to add after submission. On the desktop versions there is a Hover hambuger dropdown menu included.  I also included a slider coded purely in HTML and CSS on the projects page to upload images of future projects.
 
-There are some fun animations throughout the site to keep the user engaged and improve user experience and interaction.
+There are some fun animations throughout the site to keep the user engaged and improve user experience and interaction.<br><br>
+
+This website was designed Mobile first Using grid and some flex box for layout and respponsivness and contains media queries to enable it to be responsive to mobile, tablet and desktop screen sizes.<br><br>
+
+Although i had Accessability on my mind during the planning phase i feel that this is an area that needs dramatic improvment after submission and i look forward to improving this aspect of the page.<br>
 
 **Site Directory tree**<br>
 
