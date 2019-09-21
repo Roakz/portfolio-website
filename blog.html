@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="llama-favcons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="llama-favcons/favicon-16x16.png">
     <link rel="manifest" href="llama-favcons/site.webmanifest">
-    <link rel="stylesheet" href="scss/style-main.css">
+    <link rel="stylesheet" href="scss/style-main.css" integrity="RSmeRovSvP/fySOfHBrcgLSae8g2VcX/1a1r8A2CCUOm4Wfq11uUxDCMEG8OqBLy">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -38,15 +38,21 @@
       </div>
 
       <!-- The main grid wrapper -->
-      <div class="bio-grid">
+      <div class="bio-grid" id="blog-grid">
+        <!-- header section -->
         <section id="header">
         <img id="mobile-bio-head" src="project-pictures/rory-b.PNG" alt="Rory B. Logo">
         </section>
+
+        <!-- main picture at top of page -->
         <section id="head-picture"><img id="round-me" src="/project-pictures/me-small.png"></section>
+
+        <!-- main content for the blog -->
         <section id="main-content">
           
         <h1 id="blog-heading">Blog space</h1>
-
+        
+        <!-- A directory for navigating the blog -->
         <nav id="blog-directory">
           <h4>Blog Directory</h4>
           <ul>
@@ -61,7 +67,7 @@
           <p id="blog-intro">Hey guys and gals! thanks for checking out my site :D This section was a requirement for my assessment.
             I do however have a Medium account which you can check out <a id="medium-link" href="https://medium.com/thelearningcurve">HERE</a>. 
             It contains all of these articles and more!! I enjoy writing & find that it helps to consolidate my learning on certain things
-            and it's a great way to reflect on my thoughts.
+            and it's a great way to reflect on my thoughts. 🤓
           </p>
         
           <article class="blog" id="bootcamp">
@@ -161,34 +167,35 @@
         <section id="bio-resume"><a href="resume.pdf" target="blank"><h4>Resume`</h4></a></section>
         <section class="right-div">
 
-            <!-- Navigation dropdown -->
-            <div id="bio-desktop-button-wrapper">
-                
-                <button class="bio-desktop-dropbtn">
+        <!-- Navigation dropdown wrapper -->
+       <div id="bio-desktop-button-wrapper">
+          
+         <button class="bio-desktop-dropbtn">
 
-                  <!-- Hamburger icon divs -->
-                 <div class="bio-desktop-ham-wrapper">
-                 <div class="bio-desktop-hamburger"></div>
-                 <div class="bio-desktop-hamburger"></div>
-                 <div class="bio-desktop-hamburger"></div>
-                </div>
-                 
-            
-                  <!-- dropdown links -->
-                  <div class="bio-desktop-dropdown-content">
-                    <a href="index.html"><h4>Home</h4></a>
-                    <a href="bio.html"><h4>Bio</h4></a>
-                    <a href="projects.html"><h4>Projects</h4></a>
-                    <a href="resume.pdf" target="blank"><h4>Resume`</h4></a>
-                  </div>
-            
-                </button>
+            <!-- Hamburger icon divs -->
+           <div class="bio-desktop-ham-wrapper">
+           <div class="bio-desktop-hamburger"></div>
+           <div class="bio-desktop-hamburger"></div>
+           <div class="bio-desktop-hamburger"></div>
 
-              </div>
+        </div>
+           
+       
+            <!-- dropdown links -->
+        <div class="bio-desktop-dropdown-content">
+           <a href="index.html"><h4>Home</h4></a>
+           <a href="bio.html"><h4>Bio</h4></a>
+           <a href="projects.html"><h4>Projects</h4></a>
+           <a href="resume.pdf" target="blank"><h4>Resume`</h4></a>
+        </div>
+            
+        </button>
+
+        </div>
 
         </section>
-       </div>
+      </div>
     
-  </div>
+    </div>
 </body>
 </html>

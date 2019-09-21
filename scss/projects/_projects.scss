@@ -1,0 +1,33 @@
+#projects-grid{
+
+     a{
+         color:blue;
+         font-weight: bold;
+     }
+
+    #main-content{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    span {
+     color:red;
+     font-weight: bolder;
+    }
+
+    h1{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    }
+}
+
+@media screen and (min-width: 1030px){
+    #projects-grid {
+
+      #bio-resume{
+          height:100%;
+      }
+    }
+}
