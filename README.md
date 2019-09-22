@@ -1,22 +1,36 @@
 <h1>Welcome to my Portfolio Website</h1>
 
-<h2>Build in progress</h2>
 
-Im currently completing this project to display a  portfolio page which will contain my Blog, a platform for hosting my projects and work and professional and Personal Bio. This is an assessment task for my Fast Track Coding Bootcamp here at Coder Academy Brisbane.<br><br>
+![Picutre of Index page wireframes for project.](project-pictures/home-page.PNG)<br>
 
-<h3>17/09/2019</h3>
 
-I have just completed the wireframes for the index page and the Mobile layout as you can see below. Its time to complete the layouts for the ipad and desktop versions and then on to some coding !! I am completing this project with the Mobile first methodology which is meant to improve responsiveness. Ill use some grid and flex box which i have seen in action and was impressed by the results. Both for ease of development and also for responsiveness. I have tried to make a very visual design with animation but still with accessability in mind. Ill keep you posted!!<br><br>
+<h2>Introduction</h2>
 
-![Picutre of Index page wireframes for project.](project-pictures/wireframes.PNG)<br>
+Hey! This is my portfolio website!! This website was created to form part of a Diploma of Information Technology, web development stream, which im completing at Coder Academy Brisbane. I have used HTML5, Css3 (with SCSS) & it has been hosted here at GitHub Pages. The address for the site is https://roakz.github.io/portfolio-website/ <br><br>
 
-![Picture of the mobile layout for the index page.](project-pictures/mobile-layout-1.PNG)<br>
+I will use this website to upload projects that im undertaking and use it as a portfolio for my work. As my skills progress and I continue to learn further frameworks and languages I will endeavour to upgrade it to showcase my skills. It will become a digital resume & hopefully help me secure an Internship or paid Employment as a junior Web Developer.<br><br>
 
-<h3> More updates !</h3>
+Below I have included a site map, some information about the planning, features & functionality and some information about some lessons learnt during development.<br><br>
 
-<h3>Final wireframes and Mock-ups complete :) </h3>
+
+<h3>Planning</h3>
+
+There was a fair bit of planning that happened before completing this website. First of all I did some Mood Boarding to aquire some inspiration for the direction I wanted the website to take. Following on from this I used the project managment tool Trello to organise my tasks and create a workflow and then moved on to the Wireframing and Finally Mock-ups. <br><br>
+
+The best thing about trello is its a live document that is always right there on your laptop ready to change and update in a neat organised environment.<br><br>
+
+One of the things I learnt during this project is that taking the time to carry out some planning before diving right into code can definitely help make the coding phase alot easier as you know exactly what your aiming for.<br><br>
+
+check out some snaps below!<br>
+
+**Mood Boards**<br>
+
+![Picutre of Index page wireframes for project.](project-pictures/mood-boards.PNG)<br>
+
 
 **Wire Frames**<br>
+
+![Picutre of Index page wireframes for project.](project-pictures/wireframes.PNG)<br>
 
 ![Picture of bio, blog & projects wireframes for project.](project-pictures/bio-wires.PNG)<br>
 
@@ -27,21 +41,28 @@ I have just completed the wireframes for the index page and the Mobile layout as
 
 ![Picture of the mobile layout](project-pictures/bio-blog-projects-layout.PNG)<br>
 
+<h3>Features/Funtionality</h3>
+
+Features of the site include an interactive index page with animated icons for desktop that are clickable links. I originally had dropdown buttons on all layouts however discovered that making them work on IOS without some javascript or JQuery wasnt easily achieved and I had a strict dealine to meet. With this in mind I decided to remove the hamburger drop down from all tablet and mobile versions for now and replace them with a Top navigation bar. I have kept the code in the script so its easy to add after submission. On the desktop versions there is a Hover hambuger dropdown menu included.  I also included a slider coded purely in HTML and CSS on the projects page to upload images of future projects.
+
+There are some fun animations throughout the site to keep the user engaged and improve user experience and interaction.<br><br>
+
+This website was designed Mobile first Using grid and some flex box for layout and respponsivness and contains media queries to enable it to be responsive to mobile, tablet and desktop screen sizes.<br><br>
+
+Although i had Accessability on my mind during the planning phase i feel that this is an area that needs dramatic improvment after submission and i look forward to improving this aspect of the page.<br>
+
 **Site Directory tree**<br>
 
 ![Picture of project wireframes.](project-pictures/site-directory-tree.PNG)<br>
 
-<h3>18/09/2019</h3>
+This site map Displays the general flow of the site. Essentially you can get to any page from any page and the resume link just loads a PDF Copy of my resume in the browser.<br><br>
 
-Today has been productive. I have managed to complete the mobile version of the index page pretty much to entirity at this stage. All links from this page are active and working. Tonight i will get the media queries done and adjust the layouts for tablet and desktop. It shouldnt take to long its just a slight change in layout of the grid. This site is extremly responsive as is but i think visually will benefit from media queries. Totally visual rather than because its breakable. Tommorrow will be onwards with the layout of the other pages on the site!. Lesson learnt....You cant animate display as it has no measurable parameters and isnt an inbuilt css functions. you can however play with the height and opacity of things to make the animation work in a similar way. I now have an operational dropdown hamburger that is animated !!! woo hoo !.
+**I Hope you enjoy the site !!!**<br><br>
 
-check out my linkdin for a video of how responsive grid is without any media queries https://www.linkedin.com/in/rory-bell-a18233193/ .
+**Feedback is always welcome!!!!**<br><br>
 
+<h3>What did I lean?</h3>
 
+I Learnt alot from this project!!! I learnt lots of small lessons about HTML and CSS that add up to one big learning curve. I also learnt the importance of contributing to the tech community to ensure that other people recieve the same help when they are stuck that you might need when your stuck. It also helped improve on my existing project managment and time managment skills aswell as Web Development skills in general. Everything from planning to production and hosting the site live.<br><br>
 
-
-
-
-
-
-
+**All in all a great success! and I look forward to improving on it in and adding to it in the future!**
