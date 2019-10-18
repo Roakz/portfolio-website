@@ -6,13 +6,15 @@
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    
     writing-mode:vertical-rl;   
     text-orientation: upright; 
     display:flex;
     justify-content: center;
     align-items:center;
     transition: transform .5s;
+h4{
+    color: white;
+}
 }
 
 #blog h4 {
