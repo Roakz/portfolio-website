@@ -1,5 +1,7 @@
 <h1>Welcome to my Portfolio Website</h1>
 
+This Website is still hosted. Right here on GitHub pages. Alot of the info is out of date as this was hardcoded and the first website I ever really built. But i did upload a new resume to it!
+
 
 ![Picutre of Index page wireframes for project.](project-pictures/home-page.PNG)<br>
 
